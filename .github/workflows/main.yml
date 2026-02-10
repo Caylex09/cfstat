@@ -55,7 +55,7 @@ jobs:
       - name: Generate images
         run: |
           python3 --version
-          python3 app/main.py
+          python3 -m app.main
 
       # Commit all changed files to the repository
       - name: Commit to the repo
